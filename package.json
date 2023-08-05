@@ -1,0 +1,26 @@
+{
+  "name": "engageLively--fez-shop",
+  "author": {
+    "name": "rickmcgeer"
+  },
+  "description": "Shopping app after exploring Fez in the Ibn Battuta Game",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/engageLively/fez-shop"
+  },
+  "scripts": {
+    "build": "rm -rf build/* && export MINIFY='' && ./tools/build.sh",
+    "build-minified": "rm -rf build/* && export MINIFY=true && ./tools/build.sh"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-export-default": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.9.0"
+  },
+  "lively": {
+    "projectDependencies": [],
+    "boundLivelyVersion": "3596b124e6edc271afc4baf4666b759442e25016"
+  },
+  "version": "0.1.1"
+}
